@@ -103,10 +103,15 @@ function App() {
           )}
         </main>
 
-        <footer className="relative z-10 mt-20 text-center text-sm text-muted-foreground border-t border-border/40 pt-8 pb-4 animate-in fade-in duration-1000 delay-500 fill-mode-both">
-          <p className="transition-colors duration-300">
-            made by <a href="https://github.com/devbyharshit" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground hover:text-primary transition-colors hover:underline underline-offset-4">@devbyharshit</a>
-          </p>
+        <footer className="relative z-10 mt-20 text-center text-sm text-muted-foreground border-t border-border/40 pt-8 pb-8 animate-in fade-in duration-1000 delay-500 fill-mode-both">
+          <div className="flex flex-col items-center gap-2 transition-colors duration-300">
+            <p className="text-base font-medium text-foreground/80">
+              Automating the mundane so you can focus on the extraordinary.
+            </p>
+            <p className="text-muted-foreground/80">
+              Crafted with purpose by <a href="https://github.com/devbyharshit" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground hover:text-primary transition-colors hover:underline underline-offset-4">@devbyharshit</a>
+            </p>
+          </div>
         </footer>
       </div>
     </div>
